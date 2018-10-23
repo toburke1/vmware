@@ -19,5 +19,4 @@
         memory_mb: 1024
         num_cpus: 1
         num_cpu_cores_per_socket: 1
-      delegate_to: localhost
       wait_for_ip_address: yes
