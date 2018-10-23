@@ -11,4 +11,5 @@
       name: centos7001
       template: template_centos7
       datacenter: DC1
+      folder: /vm
       wait_for_ip_address: yes
