@@ -11,5 +11,13 @@
       name: centos7001
       template: template_centos7
       datacenter: DC1
-      folder: /vm
+      folder: 'vm'
+      disk:
+      - size_gb: 10
+        type: thin
+      hardware:
+        memory_mb: 1024
+        num_cpus: 1
+        num_cpu_cores_per_socket: 1
+      delegate_to: localhost
       wait_for_ip_address: yes
