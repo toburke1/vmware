@@ -4,9 +4,6 @@
   tasks:
   - name: Clone the template
     vmware_guest:
-      #hostname: 192.168.5.25
-      #username: administrator@vsphere.local
-      #password: R3dh4t1!
       validate_certs: no
       name: "{{ hostname }}"
       template: template_centos7
