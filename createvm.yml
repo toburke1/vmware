@@ -4,11 +4,11 @@
   tasks:
   - name: Clone the template
     vmware_guest:
-      hostname: 192.168.5.25
-      username: administrator@vsphere.local
-      password: R3dh4t1!
+      #hostname: 192.168.5.25
+      #username: administrator@vsphere.local
+      #password: R3dh4t1!
       validate_certs: no
-      name: centos7002
+      name: "{{ hostname }}"
       template: template_centos7
       datacenter: DC1
       folder: '/vm'
@@ -20,4 +20,4 @@
         memory_mb: 1024
         num_cpus: 1
         num_cpu_cores_per_socket: 1
-      wait_for_ip_address: yes
+      wait_for_ip_address: no
