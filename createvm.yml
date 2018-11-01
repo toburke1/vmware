@@ -6,13 +6,13 @@
     vmware_guest:
       validate_certs: no
       name: "{{ hostname }}"
-      template: template_centos7
+      template: centos1
       datacenter: DC1
       folder: '/vm'
       disk:
-      - size_gb: 20
+      - size_gb: 40
         type: thin
-        datastore: datastore1
+        datastore: datastore2_2
       hardware:
         memory_mb: 1024
         num_cpus: 1
