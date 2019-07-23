@@ -9,6 +9,7 @@
       template: centserv1
       datacenter: DC1
       folder: '/vm'
+      state: poweredon
       disk:
       - size_gb: 30
         type: thin
