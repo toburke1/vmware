@@ -4,8 +4,10 @@
   tasks:
   - name: Set the state of a virtual machine to poweroff
     vmware_guest_powerstate:
+      hostname: 129.213.140.49
+      username: administrator@vsphere.local
+      password: R3dh4t1!
       validate_certs: no
-      hostname: esxserv3.rhpds.local
       name: centservtommy
       folder: "/vm"
       name: "(( guest_name ))"
