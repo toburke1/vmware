@@ -6,7 +6,7 @@
     vmware_guest_powerstate:
       hostname: 129.213.140.49
       username: administrator@vsphere.local
-      password: R3dh4t1!
+      password: "(( password ))"
       validate_certs: no
       name: centservtommy
       folder: "/vm"
