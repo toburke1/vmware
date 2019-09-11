@@ -6,6 +6,7 @@
     vmware_guest_powerstate:
       validate_certs: no
       folder: "/vm"
+      name: "(( guest_name ))"
       state: powered-off
     delegate_to: localhost
     register: deploy
