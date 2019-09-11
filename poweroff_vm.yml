@@ -5,6 +5,7 @@
   - name: Set the state of a virtual machine to poweroff
     vmware_guest_powerstate:
       validate_certs: no
+      name: centservtommy
       folder: "/vm"
       name: "(( guest_name ))"
       state: powered-off
