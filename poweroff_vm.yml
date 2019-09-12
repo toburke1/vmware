@@ -10,7 +10,7 @@
       validate_certs: no
       name: 
       folder: "/DC1/vm"
-      name: "(( guest_name ))"
+      name: centvm1
       state: powered-off
     delegate_to: localhost
     register: deploy
