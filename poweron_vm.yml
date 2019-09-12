@@ -2,7 +2,7 @@
   connection: local
   gather_facts: False
   tasks:
-  - name: Set the state of a virtual machine to poweroff
+  - name: Set the state of a virtual machine to poweron
     vmware_guest_powerstate:
       hostname: 129.213.140.49
       username: administrator@vsphere.local
