@@ -8,7 +8,7 @@
       name: "{{ hostname }}"
       template: centserv1
       datacenter: DC1
-      folder: '/vm'
+      folder: '/DC1/vm'
       state: poweredon
       disk:
       - size_gb: 30
