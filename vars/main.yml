@@ -1,5 +1,5 @@
 ---
 # name: variables for powering off and on vm's
-hostname: "129.213.140.49"
-username: "administrator@vsphere.local"
-password: "R3dh4t1"
+vcenter_hostname: "129.213.140.49"
+vcenter_username: "administrator@vsphere.local"
+vcenter_password: "R3dh4t1"
