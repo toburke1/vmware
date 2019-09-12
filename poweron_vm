@@ -1,0 +1,16 @@
+- hosts: localhost 
+  connection: local
+  gather_facts: False
+  tasks:
+  - name: Set the state of a virtual machine to poweroff
+    vmware_guest_powerstate:
+      hostname: 129.213.140.49
+      username: administrator@vsphere.local
+      password: R3dh4t1!
+      validate_certs: no
+      name: 
+      folder: "/DC1/vm"
+      name: centvm1
+      state: powered-on
+    delegate_to: localhost
+    register: deploy
