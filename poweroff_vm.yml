@@ -9,7 +9,7 @@
       password: R3dh4t1!
       validate_certs: no
       name: centservtommy
-      folder: "/vm"
+      folder: "/DC1/vm"
       name: "(( guest_name ))"
       state: powered-off
     delegate_to: localhost
