@@ -6,7 +6,7 @@
     vmware_guest_powerstate:
       hostname: "{{ vcenter_hostname }}"
       username: administrator@vsphere.local
-      password: R3dh4t1!
+      password: "{{ password }}"
       validate_certs: no
       name: 
       folder: "/DC1/vm"
