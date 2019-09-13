@@ -7,7 +7,7 @@
   - name: Set the state of a virtual machine to poweroff
     vmware_guest_powerstate:
       hostname: "{{ vcenter_hostname }}"
-      username: administrator@vsphere.local
+      username: "{{ vcenter_username }}"
       password: R3dh4t1!
       validate_certs: no
       name: 
